@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!-->
+<html lang="en">
+<!--<![endif]-->
+<head>
+
+<!-- Basic Page Needs
+  ================================================== -->
+<meta charset="utf-8">
+<title>myBird</title>
+<meta name="description" content="">
+<meta name="author" content="">
+
+<!-- Mobile Specific Metas
+  ================================================== -->
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+<!-- CSS
+  ================================================== -->
+<link rel="stylesheet" href="stylesheets/base.css">
+<link rel="stylesheet" href="stylesheets/skeleton.css">
+<link rel="stylesheet" href="stylesheets/layout.css">
+
+<!--[if lt IE 9]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+
+<!-- Favicons
+	================================================== -->
+<link rel="shortcut icon" href="images/favicon.ico">
+<link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+<link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+<!-- Camera Slider
+  ================================================== -->
+
+
+
+<!-- Start WOWSlider.com HEAD section -->
+	<link rel="stylesheet" type="text/css" href="engine1//style.css" media="screen" />
+	<script type="text/javascript" src="engine1//jquery.js"></script>
+<!-- End WOWSlider.com HEAD section -->
+
+</head>
+<body>
+
+<!-- Primary Page Layout
+	================================================== --> 
+
+<!-- Delete everything in this .container and get started on your own site! -->
+
+<div class="container"> 
+  
+  <!-- NAVIGATION -->
+  <div class="miniNav">
+    <div class="miniItem">Home</div>
+    <div class="miniItem">Support</div>
+    <div class="miniItem">About us</div>
+    <div class="miniItem">Contact us</div>
+  </div>
+  <div class="nav">
+    <div class="item">Shop</div>
+    <div class="item">Articles</div>
+    <div class="item logoPosition"><img src="../../School Website/mm3001/final/images/squairy_light.png" width="200" height="200"></div>
+    <div class="item">Tips</div>
+    <div class="item">Deals</div>
+  </div>
+  <!-- END OF NAVIGATION --> 
+  <!-- CONTENT -->
+  
+  
+
+<!-- Start WOWSlider.com BODY section id=wowslider-container1 -->
+	<div id="wowslider-container1">
+	<div class="ws_images"><ul>
+<li><img src="data1/images/138_1018001w.jpg" alt="138_1018001-W" title="138_1018001-W" id="wows1_0"/></li>
+<li><img src="data1/images/138_1152281w.jpg" alt="138_1152281-W" title="138_1152281-W" id="wows1_1"/></li>
+<li><img src="data1/images/139_1909814w.jpg" alt="139_1909814-W" title="139_1909814-W" id="wows1_2"/></li>
+<li><img src="data1/images/149_2031602w.jpg" alt="149_2031602-W" title="149_2031602-W" id="wows1_3"/></li>
+<li><img src="data1/images/116_1510103w.jpg" alt="116_1510103-W" title="116_1510103-W" id="wows1_4"/></li>
+<li><img src="data1/images/118_798758w.jpg" alt="118_798758-W" title="118_798758-W" id="wows1_5"/></li>
+</ul></div>
+<div class="ws_bullets"><div>
+<a href="#" title="138_1018001-W"><img src="data1/tooltips/138_1018001w.jpg" alt="138_1018001-W"/>1</a>
+<a href="#" title="138_1152281-W"><img src="data1/tooltips/138_1152281w.jpg" alt="138_1152281-W"/>2</a>
+<a href="#" title="139_1909814-W"><img src="data1/tooltips/139_1909814w.jpg" alt="139_1909814-W"/>3</a>
+<a href="#" title="149_2031602-W"><img src="data1/tooltips/149_2031602w.jpg" alt="149_2031602-W"/>4</a>
+<a href="#" title="116_1510103-W"><img src="data1/tooltips/116_1510103w.jpg" alt="116_1510103-W"/>5</a>
+<a href="#" title="118_798758-W"><img src="data1/tooltips/118_798758w.jpg" alt="118_798758-W"/>6</a>
+</div></div>
+<span class="wsl"><a href="http://wowslider.com">Slider Js</a> by WOWSlider.com v3.8</span>
+	<a href="#" class="ws_frame"></a>
+	<div class="ws_shadow"></div>
+	</div>
+	<script type="text/javascript" src="engine1//wowslider.js"></script>
+	<script type="text/javascript" src="engine1//script.js"></script>
+<!-- End WOWSlider.com BODY section -->
+
+<div class="slider"> </div>
+  <div class="categories">
+    <div class="categoryWrapper">
+      <div class="categoryList"> </div>
+      <div class="categoryList"> </div>
+      <div class="categoryList"> </div>
+      <div class="categoryList"> </div>
+      <div class="categoryList"> </div>
+      <div class="categoryList"> </div>
+      <div class="categoryList"> </div>
+      <div class="categoryList"> </div>
+      <div class="categoryList"> </div>
+    </div>
+  </div>
+  <div class="information">
+    <div class="info1"> </div>
+    <div class="info2"> </div>
+    <div class="info3"> </div>
+  </div>
+  <div class="featured"> </div>
+  <div class="footer">
+    <div class="footerWrapper">
+      <div class="footerTitle"> </div>
+      <div class="footerListWrapper">
+        <div class="footerList"> </div>
+        <div class="footerList"> </div>
+        <div class="footerList"> </div>
+        <div class="footerList"> </div>
+        <div class="footerList"> </div>
+        <div class="footerList"> </div>
+        <div class="footerList"> </div>
+        <div class="footerList"> </div>
+        <div class="footerList"> </div>
+        <div class="footerList"> </div>
+        <div class="footerList"> </div>
+        <div class="footerList"> </div>
+        <div class="footerList"> </div>
+        <div class="footerList"> </div>
+        <div class="footerList"> </div>
+        <div class="footerList"> </div>
+        <div class="footerList"> </div>
+        <div class="footerList"> </div>
+      </div>
+    </div>
+  </div>
+  <!-- END OF CONTENT --> 
+  
+</div>
+<!-- container --> 
+
+<!-- Java Script placed at the end for faster page loading
+================================================== --> 
+
+<!-- End Document
+================================================== -->
+</body>
+</html>

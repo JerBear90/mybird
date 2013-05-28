@@ -1,0 +1,814 @@
+/*
+* Skeleton V1.2
+* Copyright 2011, Dave Gamache
+* www.getskeleton.com
+* Free to use under the MIT license.
+* http://www.opensource.org/licenses/mit-license.php
+* 6/20/2012
+*/
+
+/* Table of Content
+==================================================
+	#Site Styles
+	#Page Styles
+	#Media Queries
+	#Font-Face */
+
+/* #Site Styles
+================================================== */
+.info1 img {
+	width: 350px;
+	height: 450px;
+}
+.info2 img {
+	width: 325px;
+	height: 175px;
+}
+.info3 img {
+	width: 325px;
+	height: 450px;
+	bottom:55px;
+	position:relative;
+}
+.categoryList, .footerTitle {
+	font-size:20px;
+	line-height:30px;
+	text-indent:10px;
+	}
+/* #Page Styles
+================================================== */
+a:link {
+	color: #578564;
+	text-decoration: none;
+	font-weight: bold;
+}
+a:visited {
+	text-decoration: none;
+	color: #578564;
+}
+a:hover {
+	text-decoration: underline;
+	color: #578564;
+}
+a:active {
+	text-decoration: none;
+}
+
+/* #Media Queries
+================================================== */
+
+	@media only screen and (min-width:960px) {
+.miniNav {
+	width: 320px;
+	height: 20px;
+	background: #903;
+	float: right;
+	margin-bottom: 50px;
+}
+.miniNav .miniItem {
+	width: 80px;
+	height: 20px;
+	background: #D4C486;
+	float: left;
+	text-align: center;
+	font: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+.nav {
+	width: 960px;
+	height: 45px;
+	margin: auto;
+	clear: both;
+}
+.nav .item {
+	color: #578564;
+	width: 162px;
+	height: auto;
+	background: #D4C486;
+	float: left;
+	text-align: center;
+	font: Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	padding: 15px;
+}
+.nav .item img {
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+.slider {
+	width: 100%;
+	height: 375px;
+	background: #D4C486;
+	float: left;
+	margin-bottom: 10px;
+}
+.categories {
+	width: 475px;
+	height: 295px;
+	background: #D4C486;
+	float: left;
+}
+.logoPosition {
+	position: relative;
+	bottom: 65px;
+}
+.categoryWrapper {
+	width: 465px;
+	height: 285px;
+	float: left;
+	margin: 5px;
+}
+.categoryList {
+	width: 465px;
+	height: 30.8px;
+	background-color: #FDF6DF;
+	float: left;
+	margin-bottom: 1px;
+	
+}
+.information {
+	width: 475px;
+	height: 295px;
+	background: #D4C486;
+	float: left;
+	margin-left: 10px;
+	margin-bottom: 10px;
+}
+.info1 {
+	width: 230px;
+	height: 285px;
+	background-color: #FDF6DF;
+	overflow: hidden;
+	float: left;
+	margin: 5px 5px 5px 5px;
+}
+.info2 {
+	overflow: hidden;
+	width: 230px;
+	height: 140px;
+	background-color: #FDF6DF;
+	float: left;
+	margin-bottom: 5px;
+	margin-top: 5px;
+}
+.info3 {
+	overflow: hidden;
+	width: 230px;
+	height: 140px;
+	background-color: #FDF6DF;
+	float: left;
+}
+.featured {
+	width: 960px;
+	height: 225px;
+	background: #D4C486;
+	float: left;
+	margin-bottom: 10px;
+}
+.footer {
+	width: 960px;
+	height: 200px;
+	background: #D4C486;
+	float: left;
+}
+.footerWrapper {
+	width: 475px;
+	height: 190px;
+	float: left;
+	margin: 5px 5px 5px 5px;
+}
+.footerTitle {
+	width: 240px;
+	height: 30px;
+	background-color: #FDF6DF;
+	float: left;
+	margin: 5px 5px 5px 10px;
+}
+.footerListWrapper {
+	width: 465px;
+	height: 155px;
+	/*background-color: #099;*/
+	float: left;
+	margin-left: 5px;
+}
+.footerList {
+	width: 145px;
+	height: 20px;
+	background-color: #FDF6DF;
+	float: left;
+	margin: 0px 5px 5px 5px;
+}
+}
+	/* Smaller than standard 960 (devices and browsers) */
+	
+	
+	@media only screen and (max-width: 959px) {
+.miniNav {
+	width: 240px;
+	height: 20px;
+	background: #903;
+	float: right;
+	margin-bottom: 50px;
+}
+.miniNav .miniItem {
+	width: 60px;
+	height: 20px;
+	background: #D4C486;
+	float: left;
+	text-align: center;
+	font: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+.nav {
+	width: 768px;
+	height: 45px;
+	background: #903;
+	margin: auto;
+	clear: both;
+}
+.nav .item {
+	color: #578564;
+	width: 16.09%;
+	height: auto;
+	background: #D4C486;
+	float: left;
+	text-align: center;
+	font: Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	padding: 15px;
+}
+.nav .item img {
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+.logoPosition {
+	position: relative;
+	bottom: 50px;
+}
+.slider {
+	width: 100%;
+	height: 375px;
+	background: #D4C486;
+	float: left;
+	margin-bottom: 10px;
+}
+.categories {
+	width: 283px;
+	height: 295px;
+	background: #D4C486;
+	float: left;
+}
+.categoryWrapper {
+	width: 273px;
+	height: 285px;
+	float: left;
+	margin: 5px;
+}
+.categoryList {
+	width: 273px;
+	height: 30.8px;
+	background-color: #FDF6DF;
+	float: left;
+	margin-bottom: 1px;
+}
+.information {
+	width: 475px;
+	height: 295px;
+	background: #D4C486;
+	float: left;
+	margin-left: 10px;
+	margin-bottom: 10px;
+}
+.info1 {
+	width: 230px;
+	height: 285px;
+	background-color: #FDF6DF;
+	overflow: hidden;
+	float: left;
+	margin: 5px 5px 5px 5px;
+}
+.info2 {
+	overflow: hidden;
+	width: 230px;
+	height: 140px;
+	background-color: #FDF6DF;
+	float: left;
+	margin-bottom: 5px;
+	margin-top: 5px;
+}
+.info3 {
+	overflow: hidden;
+	width: 230px;
+	height: 140px;
+	background-color: #FDF6DF;
+	float: left;
+}
+.featured {
+	width: 768px;
+	height: 225px;
+	background: #D4C486;
+	float: left;
+	margin-bottom: 10px;
+}
+.footer {
+	width: 768px;
+	height: 200px;
+	background: #D4C486;
+	float: left;
+}
+.footerWrapper {
+	width: 475px;
+	height: 190px;
+	float: left;
+	margin: 5px 5px 5px 5px;
+}
+.footerTitle {
+	width: 240px;
+	height: 30px;
+	background-color: #FDF6DF;
+	float: left;
+	margin: 5px 5px 5px 10px;
+}
+.footerListWrapper {
+	width: 465px;
+	height: 155px;
+	/*background-color: #099;*/
+	float: left;
+	margin-left: 5px;
+}
+.footerList {
+	width: 145px;
+	height: 20px;
+	background-color: #FDF6DF;
+	float: left;
+	margin: 0px 5px 5px 5px;
+}
+}
+
+	/* Tablet Portrait size to standard 960 (devices and browsers) */
+	@media only screen and (min-width: 768px) and (max-width: 959px) {
+.miniNav {
+	width: 240px;
+	height: 20px;
+	background: #903;
+	float: right;
+	margin-bottom: 50px;
+}
+.miniNav .miniItem {
+	width: 60px;
+	height: 20px;
+	background: #D4C486;
+	float: left;
+	text-align: center;
+	font: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+.nav {
+	width: 768px;
+	height: 45px;
+	background: #903;
+	margin: auto;
+	clear: both;
+}
+.nav .item {
+	color: #578564;
+	width: 16.09%;
+	height: auto;
+	background: #D4C486;
+	float: left;
+	text-align: center;
+	font: Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	padding: 15px;
+}
+.nav .item img {
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+.logoPosition {
+	position: relative;
+	bottom: 50px;
+}
+.slider {
+	width: 100%;
+	height: 375px;
+	background: #D4C486;
+	float: left;
+	margin-bottom: 10px;
+}
+.categories {
+	width: 283px;
+	height: 295px;
+	background: #D4C486;
+	float: left;
+}
+.categoryWrapper {
+	width: 273px;
+	height: 285px;
+	float: left;
+	margin: 5px;
+}
+.categoryList {
+	width: 273px;
+	height: 30.8px;
+	background-color: #FDF6DF;
+	float: left;
+	margin-bottom: 1px;
+}
+.information {
+	width: 475px;
+	height: 295px;
+	background: #D4C486;
+	float: left;
+	margin-left: 10px;
+	margin-bottom: 10px;
+}
+.info1 {
+	width: 230px;
+	height: 285px;
+	background-color: #FDF6DF;
+	overflow: hidden;
+	float: left;
+	margin: 5px 5px 5px 5px;
+}
+.info2 {
+	overflow: hidden;
+	width: 230px;
+	height: 140px;
+	background-color: #FDF6DF;
+	float: left;
+	margin-bottom: 5px;
+	margin-top: 5px;
+}
+.info3 {
+	overflow: hidden;
+	width: 230px;
+	height: 140px;
+	background-color: #FDF6DF;
+	float: left;
+}
+.featured {
+	width: 768px;
+	height: 225px;
+	background: #D4C486;
+	float: left;
+	margin-bottom: 10px;
+}
+.footer {
+	width: 768px;
+	height: 200px;
+	background: #D4C486;
+	float: left;
+}
+.footerWrapper {
+	width: 475px;
+	height: 190px;
+	float: left;
+	margin: 5px 5px 5px 5px;
+}
+.footerTitle {
+	width: 240px;
+	height: 30px;
+	background-color: #FDF6DF;
+	float: left;
+	margin: 5px 5px 5px 10px;
+}
+.footerListWrapper {
+	width: 465px;
+	height: 155px;
+	/*background-color: #099;*/
+	float: left;
+	margin-left: 5px;
+}
+.footerList {
+	width: 145px;
+	height: 20px;
+	background-color: #FDF6DF;
+	float: left;
+	margin: 0px 5px 5px 5px;
+}
+}
+
+	/* All Mobile Sizes (devices and browser) */
+	@media only screen and (max-width: 767px) {
+.nav {
+	width: 480px;
+	height: 45px;
+	background: #903;
+	margin: auto;
+}
+}
+
+	/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+	@media only screen and (min-width: 480px) and (max-width: 767px) {
+.miniNav {
+	width: 240px;
+	height: 20px;
+	background: #903;
+	float: right;
+	margin-bottom: 50px;
+}
+.miniNav .miniItem {
+	width: 60px;
+	height: 20px;
+	background: #D4C486;
+	float: left;
+	text-align: center;
+	font: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+.nav {
+	width: 480px;
+	height: 45px;
+	background: #903;
+	margin: auto;
+	clear: both;
+}
+.nav .item {
+	color: #578564;
+	width: 66px;
+	height: auto;
+	background: #D4C486;
+	float: left;
+	text-align: center;
+	font: Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	padding: 15px;
+}
+.nav .item img {
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+.logoPosition {
+	position: relative;
+	bottom: 25px;
+}
+.slider {
+	width: 100%;
+	height: 250px;
+	background: #D4C486;
+	float: left;
+	margin-bottom: 10px;
+}
+.categories {
+	width: 480px;
+	height: 295px;
+	background: #D4C486;
+	float: left;
+}
+.categoryWrapper {
+	width: 273px;
+	height: 285px;
+	float: left;
+	margin: 5px;
+}
+.categoryList {
+	width: 470px;
+	height: 30.8px;
+	background-color: #FDF6DF;
+	float: left;
+	margin-bottom: 1px;
+}
+.information {
+	width: 480px;
+	height: 295px;
+	background: #D4C486;
+	float: left;
+	margin: 10px 0 10px 0;
+}
+.info1 {
+	width: 235px;
+	height: 285px;
+	background-color: #FDF6DF;
+	overflow: hidden;
+	float: left;
+	margin: 5px 5px 5px 5px;
+}
+.info2 {
+	overflow: hidden;
+	width: 230px;
+	height: 140px;
+	background-color: #FDF6DF;
+	float: left;
+	margin-bottom: 5px;
+	margin-top: 5px;
+}
+.info3 {
+	overflow: hidden;
+	width: 230px;
+	height: 140px;
+	background-color: #FDF6DF;
+	float: left;
+}
+.featured {
+	width: 480px;
+	height: 225px;
+	background: #D4C486;
+	float: left;
+	margin-bottom: 10px;
+}
+.footer {
+	width: 480px;
+	height: 200px;
+	background: #D4C486;
+	float: left;
+}
+.footerWrapper {
+	width: 470px;
+	height: 190px;
+	float: left;
+	margin: 5px 5px 5px 5px;
+}
+.footerTitle {
+	width: 240px;
+	height: 30px;
+	background-color: #FDF6DF;
+	float: left;
+	margin: 5px 5px 5px 10px;
+}
+.footerListWrapper {
+	width: 465px;
+	height: 155px;
+	/*background-color: #099;*/
+	float: left;
+	margin-left: 5px;
+}
+.footerList {
+	width: 140px;
+	height: 20px;
+	background-color: #FDF6DF;
+	float: left;
+	margin: 0px 5px 5px 5px;
+}
+}
+
+	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+	@media only screen and (max-width: 479px) {
+.miniNav {
+	width: 240px;
+	height: 20px;
+	background: #903;
+	float: right;
+	margin-bottom: 50px;
+}
+.miniNav .miniItem {
+	width: 60px;
+	height: 20px;
+	background: #D4C486;
+	float: left;
+	text-align: center;
+	font: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+.nav {
+	width: 320px;
+	height: auto;
+	background: #903;
+	margin: auto;
+	clear: both;
+}
+.nav .item {
+	color: #578564;
+	width: 54px;
+	height: auto;
+	background: #D4C486;
+	float: left;
+	text-align: center;
+	font: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	padding: 5px;
+}
+.nav .item img {
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+.logoPosition {
+	position: relative;
+	bottom: 20px;
+}
+.slider {
+	width: 100%;
+	height: 120px;
+	background: #D4C486;
+	float: left;
+	margin-bottom: 10px;
+}
+.categories {
+	width: 320px;
+	height: 295px;
+	background: #D4C486;
+	float: left;
+}
+.categoryWrapper {
+	width: 273px;
+	height: 285px;
+	float: left;
+	margin: 5px;
+}
+.categoryList {
+	width: 310px;
+	height: 30.8px;
+	background-color: #FDF6DF;
+	float: left;
+	margin-bottom: 1px;
+}
+.information {
+	width: 320px;
+	height: auto;
+	background: #D4C486;
+	float: left;
+	margin: 10px 0 10px 0;
+}
+.info1 {
+	width: 310px;
+	height: 285px;
+	background-color: #FDF6DF;
+	float: left;
+	margin: 5px 5px 5px 5px;
+}
+.info2 {
+	overflow: hidden;
+	width: 310px;
+	height: 140px;
+	background-color: #FDF6DF;
+	float: left;
+	margin: 0 5px 5px 5px;
+}
+.info3 {
+	overflow: hidden;
+	width: 310px;
+	height: 140px;
+	background-color: #FDF6DF;
+	overflow: hidden;
+	float: left;
+	margin: 0 5px 5px 5px;
+}
+.featured {
+	width: 320px;
+	height: 120px;
+	background: #D4C486;
+	float: left;
+	margin-bottom: 10px;
+}
+.footer {
+	width: 320px;
+	height: auto;
+	background: #D4C486;
+	float: left;
+}
+.footerWrapper {
+	width: 310px;
+	height: auto;
+	float: left;
+	margin: 5px 5px 5px 5px;
+}
+.footerTitle {
+	width: 240px;
+	height: auto;
+	background-color: #FDF6DF;
+	float: left;
+	margin: 5px 5px 5px 10px;
+}
+.footerListWrapper {
+	width: 310px;
+	height: auto;
+	/*background-color: #099;*/
+	float: left;
+	margin-left: 5px;
+}
+.footerList {
+	width: 140px;
+	height: 20px;
+	background-color: #FDF6DF;
+	float: left;
+	margin: 0px 5px 5px 5px;
+}
+}
+
+
+/* #Font-Face
+================================================== */
+/* 	This is the proper syntax for an @font-face file
+		Just create a "fonts" folder at the root,
+		copy your FontName into code below and remove
+		comment brackets */
+
+/*	@font-face {
+	    font-family: 'FontName';
+	    src: url('../fonts/FontName.eot');
+	    src: url('../fonts/FontName.eot?iefix') format('eot'),
+	         url('../fonts/FontName.woff') format('woff'),
+	         url('../fonts/FontName.ttf') format('truetype'),
+	         url('../fonts/FontName.svg#webfontZam02nTh') format('svg');
+	    font-weight: normal;
+	    font-style: normal; }
+*/
+
+			
+/* #Slider
+================================================== */
